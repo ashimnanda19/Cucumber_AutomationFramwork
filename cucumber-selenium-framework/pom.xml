@@ -9,22 +9,21 @@
 	<description>CucumberSeleniumAutomationFramework</description>
 	<dependencies>
 		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-java</artifactId>
-			<version>1.0.2</version>
-			<scope>test</scope>
+   			 <groupId>io.cucumber</groupId>
+   			 <artifactId>cucumber-java8</artifactId>
+   			 <version>4.0.0</version>
+   			 <scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>info.cukes</groupId>
-			<artifactId>cucumber-junit</artifactId>
-			<version>1.0.2</version>
-			<scope>test</scope>
-		</dependency>
+		        <groupId>org.seleniumhq.selenium</groupId>
+		        <artifactId>selenium-java</artifactId>
+		        <version>3.13.0</version>
+   		 </dependency>  
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>4.10</version>
-			<scope>test</scope>
+ 			   <groupId>junit</groupId>
+  				<artifactId>junit</artifactId>
+ 			   <version>4.12</version>
+ 			   <scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
